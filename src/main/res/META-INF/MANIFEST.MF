@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Main-Class: com.example.summervacationproject.SummerVacationProjectApplication
+Class-Path: jackson-module-parameter-names-2.11.3.jar spring-tx-5.3.1.ja
+ r spring-oxm-5.3.1.jar spring-beans-5.3.1.jar spring-boot-autoconfigure
+ -2.4.0.jar jackson-databind-2.11.3.jar spring-boot-starter-web-2.4.0.ja
+ r freemarker-2.3.30.jar jakarta.annotation-api-1.3.5.jar mybatis-plus-e
+ xtension-3.4.1.jar classmate-1.5.1.jar mysql-connector-java-8.0.22.jar 
+ jackson-annotations-2.11.3.jar hibernate-validator-6.1.6.Final.jar kapt
+ cha-0.0.9.jar jul-to-slf4j-1.7.30.jar spring-boot-starter-json-2.4.0.ja
+ r jakarta.validation-api-2.0.2.jar spring-webmvc-5.3.1.jar spring-aop-5
+ .3.1.jar netty-buffer-4.1.54.Final.jar spring-boot-starter-logging-2.4.
+ 0.jar snakeyaml-1.27.jar tomcat-embed-websocket-9.0.39.jar spring-data-
+ redis-2.4.1.jar spring-boot-2.4.0.jar reactive-streams-1.0.3.jar spring
+ -jdbc-5.3.1.jar slf4j-api-1.7.30.jar netty-transport-4.1.54.Final.jar m
+ ybatis-plus-3.4.1.jar hutool-all-5.3.3.jar log4j-api-2.13.3.jar filters
+ -2.0.235.jar mybatis-plus-generator-3.4.1.jar tomcat-embed-core-9.0.39.
+ jar mybatis-spring-2.0.5.jar netty-resolver-4.1.54.Final.jar netty-comm
+ on-4.1.54.Final.jar reactor-core-3.4.0.jar spring-context-support-5.3.1
+ .jar jakarta.el-3.0.3.jar spring-boot-starter-validation-2.4.0.jar myba
+ tis-plus-boot-starter-3.4.1.jar jackson-datatype-jdk8-2.11.3.jar common
+ s-lang3-3.11.jar spring-security-core-5.0.1.RELEASE.jar mybatis-3.5.6.j
+ ar log4j-to-slf4j-2.13.3.jar spring-boot-starter-tomcat-2.4.0.jar sprin
+ g-boot-starter-data-redis-2.4.0.jar jackson-core-2.11.3.jar spring-expr
+ ession-5.3.1.jar jackson-datatype-jsr310-2.11.3.jar spring-boot-starter
+ -2.4.0.jar spring-boot-starter-jdbc-2.4.0.jar spring-data-commons-2.4.1
+ .jar jboss-logging-3.4.1.Final.jar lettuce-core-6.0.1.RELEASE.jar sprin
+ g-data-keyvalue-2.4.1.jar netty-codec-4.1.54.Final.jar spring-jcl-5.3.1
+ .jar jsqlparser-3.2.jar spring-web-5.3.1.jar netty-handler-4.1.54.Final
+ .jar logback-classic-1.2.3.jar spring-context-5.3.1.jar HikariCP-3.4.5.
+ jar logback-core-1.2.3.jar spring-boot-devtools-2.4.0.jar lombok-1.18.1
+ 6.jar jjwt-0.6.0.jar mybatis-plus-annotation-3.4.1.jar mybatis-plus-cor
+ e-3.4.1.jar spring-core-5.3.1.jar
+
