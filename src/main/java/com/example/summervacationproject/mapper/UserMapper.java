@@ -6,11 +6,11 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface UserMapper extends BaseMapper<User> {
+
     String getNameById(Integer id);
-
     String getPwdById(Integer id);
-
     int addUser(User user);
-
     Integer getIdByName(String username);
+    Integer getCount(String username);
+    void setCount(Integer value, String username);
 }

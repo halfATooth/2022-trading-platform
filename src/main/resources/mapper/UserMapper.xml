@@ -28,8 +28,20 @@
         WHERE
             su.username = #{username}
     </select>
+    <select id="getCount" resultType="java.lang.Integer">
+
+        SELECT
+            su.nodes_count
+        FROM
+            user su
+        WHERE
+            su.username = #{username}
+    </select>
     <insert id="addUser" keyProperty="id" useGeneratedKeys="true" parameterType="com.example.summervacationproject.bean.User">
-        insert into user(username,password)
-        values(#{username},#{password})
+        insert into user(username,password,nodes_count)
+        values(#{username},#{password},#{nodes_count})
     </insert>
+    <update id="setCount" parameterType="com.example.summervacationproject.bean.Item">
+        UPDATE user SET nodes_count = #{value} WHERE username = #{username}
+    </update>
 </mapper>
