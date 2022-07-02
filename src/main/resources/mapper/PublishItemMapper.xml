@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.summervacationproject.mapper.PublishItemMapper">
+
+    <insert id="addItem" useGeneratedKeys="true" parameterType="com.example.summervacationproject.bean.Item">
+        insert into item(category,brand,price,property,quality,isOut,publisher,payer,amount,imgNum,img)
+        values(#{category},#{brand},#{price},#{property},#{quality},#{isOut},#{publisher},#{payer},
+               #{amount},#{imgNum},#{img})
+    </insert>
+</mapper>

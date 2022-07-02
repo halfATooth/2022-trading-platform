@@ -26,6 +26,7 @@ public class UserServiceImpl implements UserService {
         User user = new User();
         user.setUsername(username);
         user.setPassword(SecurityUtils.encodePassword(password));
+        user.setNodes_count(0);
         Map<String,String> res = new HashMap<>();
         try {
             userMapper.addUser(user);
